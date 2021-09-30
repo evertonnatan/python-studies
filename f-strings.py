@@ -21,7 +21,7 @@ print(f'{nome} nasceu em {nascimento}.')
 
 nome1 = " Meu nome é Dennis Ritchie "
 print(nome1.strip()) # O método strip() remove todos os espaços no começo e no fim da string
-# print(nome1.len())   # O método len() retorna o tamanho da string
+print(len(nome1))   # O método len() retorna o tamanho da string
 print(nome1.lower()) # O método lower() retorna a string em lower case
 print(nome1.upper()) # O método upper() retorna a string em upper case
 print(nome1.replace("Dennis", "Alan")) # O método replace substitui a string com outra string
