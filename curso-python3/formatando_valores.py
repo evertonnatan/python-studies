@@ -25,3 +25,9 @@ print(f'{divisao:.2f}')
 print(f'{num_3:0<10}') # < - Direita
 print(f'{num_3:0>10}') # > - Esquerda
 print(f'{num_3:0^10}') # ^ - Centro
+
+nome = "Everton"
+sobrenome = "Natã"
+
+nome_formatado = '{0:$^10} {1:#^10}'.format(nome, sobrenome)
+print(nome_formatado)
