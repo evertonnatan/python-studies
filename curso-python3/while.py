@@ -7,7 +7,7 @@ Requisitos: entender condições e operadores.
 
 """
 
-from traceback import print_tb
+
 
 """
 while True: # loop infinito
@@ -28,6 +28,7 @@ while x < 100:
 """
 
 # criando uma calculadora
+
 while True:
     print()
     num_1 = input('Digite um número: ')
@@ -38,8 +39,8 @@ while True:
         print('Você precisa digitar um número!')
         continue
 
-        num_1 = int(num_1)
-        num_2 = int(num_2)
+    num_1 = int(num_1)
+    num_2 = int(num_2)
 
     # Operadores: + - / * 
     if operador == '+':
@@ -52,3 +53,18 @@ while True:
         print(num_1 * num_2)
     else:
         print('Operador inválido')
+
+
+# Criando coordenadas com um laço While:
+
+x = 0
+while x < 10: 
+    y = 0
+
+    while y < 5:
+        print(f'({x}, {y})')
+        y += 1
+
+    x += 1
+
+print("Acabou!")
