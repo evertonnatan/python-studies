@@ -20,3 +20,11 @@ print("Esse é meu \"texto\" (str)")
 
 
 '''
+
+'''
+Strings com aspas podem conter apóstrofos, como em "O símbolo ' é um apóstrofo", e strings com apóstrofos podem conter aspas, como em 'Os cavaleiros que dizem "Ni!"'. Strings delimitados por três aspas ou apóstrofos são chamadas de strings triplos (triple quoted strings). Eles podem conter aspas, apóstrofos ou strings entre aspas ou apóstrofos:
+
+https://panda.ime.usp.br/pensepy/static/pensepy/02-Conceitos/conceitos.html
+
+'''
+print('''"Oh nao", exclamou ela, "A bicleta esta quebrada!"''')
