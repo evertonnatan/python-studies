@@ -21,3 +21,5 @@ Embora essas operações sejam provavelmente familiares a você, os símbolos em
 
 Note também que um teste de igualdade é simétrico, mas atribuição não é. Por exemplo, se a == 7 então 7 == a. Mas, em Python, a expressão a = 7 é válida e 7 = a não é.
 '''
+
+# Funções booleanas: https://panda.ime.usp.br/pensepy/static/pensepy/06-Selecao/selecao.html#funcoes-booleanas

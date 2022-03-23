@@ -19,3 +19,6 @@ elif True:
     print("Mais uma verdadeira")
 else:
     print("Não é verdadeiro")
+
+# Condicionais aninhados: https://panda.ime.usp.br/pensepy/static/pensepy/06-Selecao/selecao.html#condicionais-aninhados
+# Condicionais encadeados (elif): https://panda.ime.usp.br/pensepy/static/pensepy/06-Selecao/selecao.html#condicionais-encadeados
