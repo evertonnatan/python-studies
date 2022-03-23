@@ -19,3 +19,24 @@ print(exponenciacao) # 25
 
 # Operador de repetição:
 print(100 * '#')
+
+'''
+Você olha para um relógio e são exatamente 2 da tarde. Você coloca um alarme para tocar daqui a 51 horas. A que horas o alarme ira tocar?
+'''
+
+# Resolução:
+hora_inicial = 14
+hora_final = hora_inicial + 51
+print(f'O alarme tocará às {hora_final % 24} horas')
+
+'''
+Escreva um programa em Python que resolve a versão geral do problema acima. Peça ao usuário que entre com a hora atual (em horas) e que entre com o número de horas que deverá esperar antes do alarme tocar. Seu programa deve imprimir a hora que o alarme irá tocar.
+
+'''
+
+# Resolução:
+hora_atual = int
+horas_de_espera = int
+input(f'Digite a hora atual ({hora_atual})')
+input(f'Digite a quantidade de horas que deseja esperar até o alarme tocar ({hora_final})')
+print(f'Seu alarme irá tocar às {hora_atual % hora_final} horas')
